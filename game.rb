@@ -16,11 +16,7 @@ class Game
   # C'est ici que le jeu commence et elle se termine que lorsqu'il y a victoire ou égalité
   def play
     while (victory? != true) && (draw? != true)
-      puts @player
-      puts @player1
-      puts @player2
-      switch(@player)
-      puts @player
+    	switch
       # afficher le tableau
       show_board
 

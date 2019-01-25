@@ -20,10 +20,10 @@ require_relative 'others'
     @player2 = {@name2 => 'O'}
 
     system ('clear')
-    choose_second_player
+    choose_player
   end
 
   # Qui joue en premier
-  def choose_second_player
+  def choose_player
     @player = @player2
   end

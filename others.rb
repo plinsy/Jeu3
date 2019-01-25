@@ -12,22 +12,11 @@
   end
 
   # permutation de joueur
-  def switch(player)
-    if player == @player2
-      player = @player2 
-    else
-      player = @player1
-    end
-
-    player
+  def switch
+    @player == @player1 ? @player = @player2 : @player = @player1
+    @player
   end
 
-  @player1 = 1
-  @player2 = 2
-  @player = @player1
 
-  puts @player
-  switch(@player)
-  puts @player
 
 

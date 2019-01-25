@@ -1,8 +1,3 @@
-require_relative 'board'
-require_relative 'player'
-require_relative 'game'
-require_relative 'others'
-
   # égalité
   def draw?
     for i in 0..2
@@ -36,7 +31,6 @@ require_relative 'others'
 
   # une colonne alignée
   def column?
-    @player = their_symbol
     column = false
     for i in 0..2
       som = ""
