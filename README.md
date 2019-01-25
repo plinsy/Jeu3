@@ -7,4 +7,8 @@ Pour jouer une partie de morpion,
 - Chaque joueur a donc son propre symbole, généralement une croix pour l’un et un rond pour l’autre. 
 - La partie se termine quand l’un des joueurs à aligner 3 symboles ou quand la grille est complétée sans vainqueur. Il y a alors égalité.
 
-game => 
+## Comment gagner une partie de Morpion ?
+
+Le premier joueur a aligner 3 symboles identiques gagne la partie. Attention, le joueur qui débute est toujours avantagé pour gagner. Pensez donc à alterner !
+
+### C'est facile non!? 
