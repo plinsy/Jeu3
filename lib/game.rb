@@ -60,7 +60,6 @@ class Game
     ch = gets.chomp
     if ch.upcase != 'Q'
       $plateau = create_board
-      @player = choose_player
       victory = false
       system ('clear')
       play

@@ -4,12 +4,12 @@ require_relative 'others'
   def init_player
     #créé 2 joueurs,
     puts "Player 1 :"
-    #print "> "
-    @name1 = 'Me'  
+    print "> "
+    @name1 = gets.chomp  
     
     puts "Player 2 :"
-    #print "> "
-    @name2 = 'You'
+    print "> "
+    @name2 = gets.chomp
     puts "#{@name1} VS #{@name2}"
     their_symbol
   end
